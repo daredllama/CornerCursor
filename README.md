@@ -1,3 +1,5 @@
+**Reviewer, please look at the "FALLOUT VIDS" folder to count the hours from those videos. It should constitue about 16 hours.
+
 # CornerCursor
 
 A trackball mouse with 2 configurable buttons and a scroll ring. Made to be positioned on the corner of a laptop so that CADding is easier in any location.
