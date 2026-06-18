@@ -1,4 +1,4 @@
-**Reviewer, please look at the "LOOKOUT VIDS" folder to count the hours from those videos. It should constitute about 16 hours, considering each second of a video is one MINUTE of actual time. For further inquiries, you can reach out to Evan Gan.
+**Reviewer, please look at the "LookOut Vids" folder here (https://drive.google.com/drive/folders/1z2TElufV9nIlRgEDV5de165D_nGBTV_t?usp=drive_link) to count the hours from those videos. The videos are named by their date (month.day). It should constitute about 16 hours, considering each second of a video is one MINUTE of actual time (The LookOut lapse program takes one photo every minute). For further inquiries, you can reach out to Evan Gan about the hours/videos.
 
 # CornerCursor
 
