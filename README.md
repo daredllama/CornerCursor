@@ -1,4 +1,4 @@
-**Reviewer, please look at the "LOOKOUT VIDS" folder to count the hours from those videos. It should constitute about 16 hours.
+**Reviewer, please look at the "LOOKOUT VIDS" folder to count the hours from those videos. It should constitute about 16 hours, considering each second of a video is one MINUTE of actual time. For further inquiries, you can reach out to Evan Gan.
 
 # CornerCursor
 
