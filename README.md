@@ -10,7 +10,7 @@ Hardware created through Onshape. PCB made through KiCad. Firmware developed thr
 
 - 3d printed case 
 - Trackball navigation using PMW-3360 sensor
-- Scroll Ring using # magnets with Hall Effect sensors
+- Scroll Ring using 40 magnets with Hall Effect sensors
 - 2 buttons
 - Firmware designed for CAD use in Onshape
 
@@ -51,7 +51,7 @@ To flash the software onto the board, connect your device to the mouse. A RPI-RP
 
 ## Assembly
 
-1. Solder the necessary parts on the PCB, using the schematic and PCB image as reference. (Remember PMW 3360 has a sensor)
+1. Solder the necessary parts on the PCB, using the schematic and PCB image as reference. (Remember, PMW 3360 has its won lens)
 2. Attach the board onto the bottom case using 2 M3X2 screws (They will go into plastic).
 3. Wire the Hall effect sensor through the hole on the part named "top".
 4. Attach the "top" part to the base case using 2 M3x8 screws.
@@ -62,7 +62,7 @@ To flash the software onto the board, connect your device to the mouse. A RPI-RP
 
 ## Bill oF Materials
 
-Full Bill of Materials located in BOM file.
+Full Bill of Materials located in the BOM file.
 
 ## Notes
 
