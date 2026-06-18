@@ -6,7 +6,7 @@ A portable trackball mouse
 
 Started: 5/26/26
 
-Current Hours: 16.5
+Current Hours: 33.3
 
 ## Day 1: May 26
 
@@ -109,5 +109,62 @@ I finished up a lot of the PCB schematic in KiCad that was left. More specifical
 <img width="1934" height="1252" alt="image" src="https://github.com/user-attachments/assets/4e5e270c-6771-4a6d-b398-17761b4f3e3f" />
 
 **Total Time: 1.5 hrs**
+
+## Day 9: June 12
+
+I switched over to Horizons from Fallout today.  In order to make this project shippable to get my hours, I had to properly document everything in GitHub. So, I spent most of my time writing the journal for the repo and setting up other things.
+
+<img width="2914" height="1770" alt="image" src="https://github.com/user-attachments/assets/392ea77b-d231-42d0-99a4-c588ee9207c5" />
+
+With most of the GitHub stuff done, I began to finish the schematic on KiCad. I pretty quickly did all of the connections for the remaining stuff, which was the decoupling capacitors on the RP2040 and the power supply. However, I did manage to finish the schematic, and unfortunately would have to fix all the problems in the ERC now.
+
+<img width="2200" height="1322" alt="image" src="https://github.com/user-attachments/assets/f3431b63-ecc5-4e96-9d16-95a7aaf99143" />
+
+**Total Time: 3.3 hrs**
+
+## Day 10: June 15
+
+I began by verifying all of the connections that I had made previously, as I had kind of been rushing. I fixed the errors, and I was off to assigning footprints to all the symbols. I imported many of the footprints, which was kind of confusing because the imported ones were not showing up. However, eventually, I got it to work. I also found out the different sizes for capacitors and resistors.
+
+<img width="2944" height="1730" alt="image" src="https://github.com/user-attachments/assets/fe22b8ce-57fc-459e-9064-02dcc5c48edf" />
+
+After finishing off the footprint assignments, it was time to fix the rest of the problems with the ERC. Most of the warnings were simple to fix because they had to do with having to fix wires or edit symbols so that they fit properly. However, there was one error and warning that was evading me, which had something to do with a GND pin and a +3v3 pin. As much as I tried to figure out what the problem was, I could not fix it, so I just moved on to the PCB editor, hoping that it would not cause any problems.
+
+<img width="2222" height="1312" alt="image" src="https://github.com/user-attachments/assets/c7a1f971-b8c9-4e24-9a1e-5aa15dbf86a0" />
+
+I imported all of the footprints into the PCB editor and laid out all the components properly. I used my CAD model in order to accurately replicate the usable dimensions for the board. Although it seemed that I would not have enough space, in the end, it turned out that there was space.
+
+<img width="2176" height="1328" alt="image" src="https://github.com/user-attachments/assets/3750fad7-a6d8-4a6b-9663-e157f2d10e21" />
+
+From this point onward, it seemed kind of weird. From my past experiences, I knew that while traces were a tedious process, it was pretty straightforward about what you needed to connect. However, in this instance, it seemed that ratsnests were leading me to wire the wrong components together. For instance, it wanted me to wire the pads of the capacitor together, which did not seem correct. I even looked at some video tutorials, but I still didn't seem to be able to wire the correct pads.
+
+<img width="2180" height="1322" alt="image" src="https://github.com/user-attachments/assets/e27f0ad1-72bb-4345-bb76-bff57b86f355" />
+
+**Total Time: 7.5 hrs**
+
+## Day 11: June 16
+
+Started with fixing the big problem that was bugging me before, which was the reason why previously I couldn't begin tracing. It turns out that the line of decoupling capacitors connected to the RP2040 had been wired incorrectly, which resulted in all of the GND nets turning into +3v3 nets. With that out of the way, I could begin successfully wiring the PCB, and it was pretty easy in the beginning.
+
+<img width="1708" height="948" alt="image" src="https://github.com/user-attachments/assets/f4cc0b9a-6086-4b95-ad36-48516ce57e61" />
+
+Now the more challenging wiring came, and it was really hard. I had to use a lot of vias on order for the traces not to cut off each other. In hindsight, I should have thought about positioning the components on the board so that it would be easier for me to wire. For the first time, I used different sizes of traces so that I could make power lines thicker than signal ones.
+
+<img width="2942" height="1780" alt="image" src="https://github.com/user-attachments/assets/e32d706d-f583-4039-aec8-e55465fb68b8" />
+
+
+**Total Time: 4.5 hrs**
+
+## Day 12: June 16
+
+Fixed up the remaining problem with the DRC in KiCad. The majority of the issues just came from small bits of traces being left out, and silkscreen making things problematic.
+
+<img width="2912" height="1670" alt="image" src="https://github.com/user-attachments/assets/5f1f7a06-e94c-4d5c-9a5d-079a944141eb" />
+
+Used the code from a similar project to get the firmware working. It was pretty simple, as I only had to adjust some PINs. I did not realize, though, that on RP2040s, there are specific pins for the SPI protocol that are divided into different SPI blocks. This made me have to rewire some stuff, but in the end, it was not too much work. I finished up the repo today as well.
+
+**Total Time: 1.5 hrs**
+
+
 
 
