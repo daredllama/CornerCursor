@@ -1,11 +1,10 @@
-**Reviewer, please look at the "FALLOUT VIDS" folder to count the hours from those videos. It should constitue about 16 hours.
+**Reviewer, please look at the "FALLOUT VIDS" folder to count the hours from those videos. It should constitute about 16 hours.
 
 # CornerCursor
 
 A trackball mouse with 2 configurable buttons and a scroll ring. Made to be positioned on the corner of a laptop so that CADding is easier in any location.
 
 Hardware created through Onshape. PCB made through KiCad. Firmware developed through VSCode.
-
 
 ## Features
 
@@ -50,10 +49,22 @@ Firmware sets up a 2-button trackball mouse that uses a PMW3360 sensor and a scr
 
 To flash the software onto the board, connect your device to the mouse. A RPI-RP2 drive should show up, at which point you can drag the given UF2 file. To flash it again, hold the BOOT button and press the RESET button on the board.
 
+## Assembly
+
+1. Solder the necessary parts on the PCB, using the schematic and PCB image as reference. (Remember PMW 3360 has a sensor)
+2. Attach the board onto the bottom case using 2 M3X2 screws (They will go into plastic).
+3. Wire the Hall effect sensor through the hole on the part named "top".
+4. Attach the "top" part to the base case using 2 M3x8 screws.
+5. Screw the two buttons to the bottom base using 4 M3x6 screws.
+6. Attach the top case to the bottom case using 3 M3x12 screws.
+7. Place the big bearing on the "top" part and attach neodymium magnets to the ring.
+8. Place static bearings into divots in the "top" part and then place the trackball.
+
 ## Bill oF Materials
 
 Full Bill of Materials located in BOM file.
 
 ## Notes
 
+AI Usage in this project was used for research, such as tutorials and datasheets; none of the code or CAD is AI-generated
 
